@@ -30,7 +30,7 @@ export default function DailyNotes(props: DailyNotesProps) {
       <Typography variant="h4" gutterBottom>
         Daily Notes
       </Typography>
-      <p>
+      <p style={{"fontSize":12}}>
         Daily notes are where I post thoughts from each day. 
         This is inspired by Roam Researh along with the idea of Learning in Public like Salmon Ansari. 
         These notes are low pressure, low edited, low quality, and often repetitive. 
