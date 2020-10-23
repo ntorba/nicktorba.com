@@ -10,6 +10,9 @@ const useStyles = makeStyles((theme) => ({
     ...theme.typography.body2,
     padding: theme.spacing(3, 3),
   },
+  header: {
+    padding: theme.spacing(0, 1)
+  }
 }));
 
 type Post = {
@@ -26,11 +29,13 @@ export default function DailyNotes(props: DailyNotesProps) {
   const { posts } = props;
   console.log("POSTS IN MAIN: ", posts);
   return (
-    <Grid item xs={12} md={8}>
-      <Typography variant="h4" gutterBottom>
+    // <Grid item xs={12} md={8}>
+    <Grid container flex-direction="row" justify-context="flex-start">
+      <Typography variant="h4" className={classes.header}>
         Daily Notes
       </Typography>
-      <p style={{"fontSize":12}}>
+      <br/>
+      <p style={{"fontSize":12}} className={classes.markdown}>
         Daily notes are where I post thoughts from each day. 
         This is inspired by Roam Researh along with the idea of Learning in Public like Salmon Ansari. 
         These notes are low pressure, low edited, low quality, and often repetitive. 
@@ -39,10 +44,12 @@ export default function DailyNotes(props: DailyNotesProps) {
       <Divider />
       {posts.map((post) => (
         <div>
-            <Typography variant="h5">{post.date}</Typography>
-            <Markdown className={classes.markdown} key={post.text.substring(0, 40)} >
-                {post.text}
-            </Markdown>
+            <Grid item>
+              <Typography variant="h5">{post.date}</Typography>
+              <Markdown className={classes.markdown} key={post.text.substring(0, 40)} >
+                  {post.text}
+              </Markdown>
+            </Grid>
         </div>
       ))}
     </Grid>

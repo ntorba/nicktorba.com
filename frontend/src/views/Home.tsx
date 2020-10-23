@@ -6,6 +6,7 @@ import {
   Grid,
 } from '@material-ui/core';
 import { Theme, createStyles, withStyles, WithStyles } from "@material-ui/core/styles";
+import hljs from 'highlight.js';
 
 
 var BASE_URL = "https://raw.githubusercontent.com/ntorba/nicktorba.com/master/frontend/posts/daily_notes/";
@@ -44,7 +45,9 @@ const styles = (theme: Theme) => createStyles({
     color: '#61dafb',
   },
   mainGrid: {
+    width: '100%',
     marginTop: theme.spacing(3),
+    justifyContent: "flex-start" //https://css-tricks.com/snippets/css/a-guide-to-flexbox/
   },
   markdown: {
     ...theme.typography.body2,
@@ -79,6 +82,7 @@ class Home extends React.Component<HomeMainProps, HomeMainState> {
         var url = BASE_URL + this.state.dateRange[i] + ".md";
         this.fetchText(url, i)
       }
+      hljs.initHighlighting()
     };
 
     async fetchText(url:string, date_index:number) {

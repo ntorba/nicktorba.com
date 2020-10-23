@@ -3,7 +3,6 @@ import { Switch, Route, Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 
 import Home from './views/Home';
-import Blog from './blogExample/Blog';
 import About from './views/About';
 
 import {
@@ -18,9 +17,9 @@ const useStyles = makeStyles((theme) => ({
   header: {
     backgroundColor: '#282c34',
     minHeight: '100vh',
-    display: 'fixed',
+    //display: 'fixed',
     flexDirection: 'column',
-    alignItems: 'center',
+    alignItems: 'flex-start',
     justifyContent: 'center',
     fontSize: 'calc(10px + 2vmin)',
     color: 'white',

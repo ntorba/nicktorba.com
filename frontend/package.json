@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/lab": "^4.0.0-alpha.54",
+    "highlight.js": "^10.3.1",
     "jwt-decode": "^3.0.0",
     "markdown-to-jsx": "^7.0.1",
     "ra-data-json-server": "^3.5.2",

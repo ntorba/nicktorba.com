@@ -6,9 +6,11 @@ import {
   withStyles,
   WithStyles,
 } from '@material-ui/core/styles';
+import { Paper } from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import Link from '@material-ui/core/Link';
+// import {HighlightedMarkdown} from '../views/HighlightedMarkdown';
 
 const styles = (theme: Theme) =>
   createStyles({
@@ -19,6 +21,9 @@ const styles = (theme: Theme) =>
 
 const options = {
   overrides: {
+    // code: {
+    //   component: HighlightedMarkdown
+    // },
     h1: {
       component: Typography,
       props: {
