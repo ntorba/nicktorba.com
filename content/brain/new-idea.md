@@ -1,0 +1,3 @@
+Hey this is a new idea.
+
+I want to create a link to a page about [[python]], I wonder if that will work... 
