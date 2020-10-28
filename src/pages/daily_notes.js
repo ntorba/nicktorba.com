@@ -1,15 +1,13 @@
 import React from "react";
 import { StaticQuery, graphql, Link } from "gatsby";
-import MDXRenderer from "gatsby-plugin-mdx/mdx-renderer";
 import styled from "@emotion/styled";
 import Layout from "../components/Layout";
 import { colors } from "../tokens";
-
-// import BrainNote from "@ntorba/gatsby-theme-brain";
-
+import MDXRenderer from "gatsby-plugin-mdx/mdx-renderer";
+import BrainNote from "@ntorba/gatsby-theme-brain";
 const AllPosts = styled.div``;
 
-const Post = styled(Link)`
+const PostHeader = styled(Link)`
   display: block;
   margin-bottom: 45px;
 
@@ -25,7 +23,7 @@ const Post = styled(Link)`
 const PostTitle = styled.h3`
   color: ${colors.purple900};
 
-  ${Post}:hover & {
+  ${PostHeader}:hover & {
     color: ${colors.purple500};
   }
 `;
@@ -38,7 +36,7 @@ const PostDate = styled.div`
   font-size: 11pt;
   color: ${colors.gray500};
 
-  ${Post}:hover & {
+  ${PostHeader}:hover & {
     color: ${colors.gray400};
   }
 `;
@@ -53,20 +51,26 @@ const DailyNotesPage = ({ data }) => {
       Date.parse(a.childMdx.frontmatter.sortDate)
     );
   });
-  console.log("FIRST NODE: ");
-  console.log(nodes[0]);
   // const Posts = nodes.map((node) => (
-  //   <Post to={"brain/" + node.childMdx.frontmatter.slug}>
-  //     <PostTitle>{node.childMdx.frontmatter.title}</PostTitle>
-  //     <PostDate>{node.childMdx.frontmatter.displayDate}</PostDate>
-  //     <p>{node.childMdx.excerpt}</p>
-  //   </Post>
+  //   <div>
+  //     <PostHeader to={"brain/" + node.childMdx.frontmatter.slug}>
+  //       <PostTitle>{node.childMdx.frontmatter.title}</PostTitle>
+  //       <PostDate>{node.childMdx.frontmatter.displayDate}</PostDate>
+  //     </PostHeader>
+  //     <MDXRenderer title="My Stuff!">{node.childMdx.body}</MDXRenderer>
+  //     </div>
+  // ));
   const Posts = nodes.map((node) => (
-    <Post to={"brain/" + node.childMdx.frontmatter.slug}>
-      <PostTitle>{node.childMdx.frontmatter.title}</PostTitle>
-      <PostDate>{node.childMdx.frontmatter.displayDate}</PostDate>
-      <MDXRenderer>{node.childMdx.body}</MDXRenderer>
-    </Post>
+    <div>
+      <PostHeader to={"brain/" + node.childMdx.frontmatter.slug}>
+        <PostTitle>{node.childMdx.frontmatter.title}</PostTitle>
+        <PostDate>{node.childMdx.frontmatter.displayDate}</PostDate>
+        <p><b>Topics</b>: {(node.childMdx.frontmatter.topics) ? node.childMdx.frontmatter.topics.join(", ") : "None Listed"}</p>
+        <p>{node.childMdx.excerpt}</p>
+      </PostHeader>
+      {/* <BrainNote note={node.childMdx}></BrainNote> */}
+      {/* <MDXRenderer title="My Stuff!">{node.childMdx.body}</MDXRenderer> */}
+      </div>
   ));
   return (
     <Layout>
@@ -88,12 +92,13 @@ export const query = graphql`
         name
         childMdx {
           body
-          excerpt(pruneLength: 250)
+          excerpt(pruneLength: 280)
           frontmatter {
             sortDate: date
             displayDate: date(formatString: "MMMM D, Y")
             title
             slug
+            topics
           }
         }
       }

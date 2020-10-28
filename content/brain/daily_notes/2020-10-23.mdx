@@ -1,0 +1,26 @@
+---
+date: 2020-10-23
+title: "2020-10-23"
+slug: "2020-10-23"
+published: true
+---
+- More and more links about [[AI Data Landscape]] and [[MLOps]] everyday. Here are some of my recent favorites
+    - https://mattturck.com/data2020/
+        - The image Matt gives in this one is insane. It's proof as to why it is so hard for people to wrap their minds around what a production data stack should look like. And why it is so hard for outsiders to figure out what the hell any of the tools or people in this industry even do... 
+    - https://huyenchip.com/2020/06/22/mlops.html
+        - This one is probably my favorite. Chip gives some fantastic visuals breaking down tools into 
+            - All-in-one
+            - Serving
+            - Infra
+            - Data Pipeline
+            - Modeling & Training 
+        - A big takeaway is that the Data Pipeline was the first focus, followed by Modeling and Training tools, and now Serving is on the rise. This is a natural progression and makes it clear that modeling and better cloud infra tools will likely follow, as more and more teams realize serving a model is not the last step in the process
+    - https://a16z.com/2020/10/15/the-emerging-architectures-for-modern-data-infrastructure/
+        - More great images. It lays out 3 different data stacks for three different types of companies. 
+            - The graphics are intense at first, but do help give a good understanding of the differences 
+        - convergence of [[data lake]] and [[data warehouse]]
+- Learning to build a site with [[Gatsby]] forced me to learn a bit about [[GraphQL]]. 
+    - did this by watching their [great intro docs](They also have great docs: https://www.howtographql.com/basics/1-graphql-is-the-better-rest/)
+    - Instead of hitting multiple endpoints and storing all the data returned, you hit one endpoint for everything you need, but only what you need. 
+        - The flip here is pretty awesome. 
+    - Based on the schema defined between the client and the server, the client can make much faster iterations on the data structures it needs without having to make changes on the backend. This is a huge advantage 
