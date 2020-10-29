@@ -1,10 +1,8 @@
 import React from "react";
-import { StaticQuery, graphql, Link } from "gatsby";
+import { graphql, Link } from "gatsby";
 import styled from "@emotion/styled";
 import Layout from "../components/Layout";
 import { colors } from "../tokens";
-import MDXRenderer from "gatsby-plugin-mdx/mdx-renderer";
-import BrainNote from "@ntorba/gatsby-theme-brain";
 const AllPosts = styled.div``;
 
 const PostHeader = styled(Link)`
