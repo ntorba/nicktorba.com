@@ -41,8 +41,6 @@ const PostDate = styled.div`
 
 const DailyNotesPage = ({ data }) => {
   let nodes = data.posts.nodes;
-  console.log("NODES");
-  console.log(nodes);
   nodes.sort((a, b) => {
     return (
       Date.parse(b.childMdx.frontmatter.sortDate) -

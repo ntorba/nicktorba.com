@@ -12,8 +12,6 @@ let nodes = [];
 const recursive = directory => fs.readdirSync(directory).map(filename => {
         let slug = path.parse(filename).name.toLowerCase();
         let fullPath = path.join(directory, filename);
-        console.log("FULLPATH");
-        console.log(fullPath);
         if (fs.lstatSync(fullPath).isDirectory()) {
             recursive(fullPath)
         }else if (notesFileExtensions.includes(path.extname(filename).toLowerCase())){
@@ -28,7 +26,6 @@ const recursive = directory => fs.readdirSync(directory).map(filename => {
     })
 
 recursive(notesDirectory);
-console.log(nodes);
 
 // let filenames = fs.readdirSync(notesDirectory);
 // // console.log("FILENAMES")
@@ -51,4 +48,3 @@ console.log(nodes);
 //       };
 //     });
 
-//console.log(f);
