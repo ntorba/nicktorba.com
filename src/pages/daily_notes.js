@@ -58,16 +58,14 @@ const DailyNotesPage = ({ data }) => {
   //     </div>
   // ));
   const Posts = nodes.map((node) => (
-    <div>
-      <PostHeader to={"brain/" + node.childMdx.frontmatter.slug}>
-        <PostTitle>{node.childMdx.frontmatter.title}</PostTitle>
-        <PostDate>{node.childMdx.frontmatter.displayDate}</PostDate>
-        {/* <p><b>Topics</b>: {(node.childMdx.frontmatter.topics) ? node.childMdx.frontmatter.topics.join(", ") : "None Listed"}</p> */}
-        <p>{node.childMdx.excerpt}</p>
-      </PostHeader>
-      {/* <BrainNote note={node.childMdx}></BrainNote> */}
-      {/* <MDXRenderer title="My Stuff!">{node.childMdx.body}</MDXRenderer> */}
-      </div>
+    <PostHeader to={"brain/" + node.childMdx.frontmatter.slug}>
+      <PostTitle>{node.childMdx.frontmatter.title}</PostTitle>
+      <PostDate>{node.childMdx.frontmatter.displayDate}</PostDate>
+      {/* <p><b>Topics</b>: {(node.childMdx.frontmatter.topics) ? node.childMdx.frontmatter.topics.join(", ") : "None Listed"}</p> */}
+      <p>{node.childMdx.excerpt}</p>
+    </PostHeader>
+    {/* <BrainNote note={node.childMdx}></BrainNote> */}
+    {/* <MDXRenderer title="My Stuff!">{node.childMdx.body}</MDXRenderer> */}
   ));
   return (
     <Layout>
