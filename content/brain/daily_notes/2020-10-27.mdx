@@ -1,0 +1,32 @@
+---
+date: 2020-10-27
+title: "Jungle Intro && Thinking about Databricks IPO"
+slug: "2020-10-27"
+published: true
+topics: [The Jungle, DataBricks, Ray, Dask]
+---
+- Working on my Intro to [[The Jungle]], here are some notes as a rough draft of the idea
+    - I'm calling my brain a jungle because of a great learning metaphor [[Josh Waitzkin]] gives in [[The Art of Learning]]. It's goes like this. Learning is like being a jungle, where all you have is a machete. To stay alive, you must hack your way to livable space. You'll feel lost, you'll be tired, but you have to keep hacking until you can make some sense out of the vast jungle you're in. After enough work, you'll make it to a clearing, or make your own, and you can lay down some stake to the learning you've done
+    - I love this metaphor for many reasons
+        - First, the initial learning experience of a new subject does feel like being lost in an unfamiliar jungle. You're lost in a sea of unfamiliar words and ideas. The only way to progress is throw together some sort of basic vocab and keep reading
+        - It extends further though. As you continue to learn, you make your trails and clearings better and better. 
+            - The more often you use a trail, the less overgrown it gets, and more long term it becomes. On the other hand, if you use a trail once, it slowly becomes overgrown and to use it again, you'll need to hack your way back through (long term memories are trails we've treaded on a lot, in many cases)
+    - Multiple phases
+        - machete phase: pick a direction that feels good and hack. Hack until you get to some sort of opening where you can set up camp for the night. Wake up the next morning and hack again
+        - Trail building: After you've set up a few different camps you like, you begin to get a feel for where you are in the jungle, at least relative to your camps. At that point, you can start to carve out the best paths between each, so you can conveniently get to each one
+        - Development
+            - After building some rough trails, it's time to really start developing your more opened up sites. Cut some trees from the surrounding sites and build a house 
+- With recent news about the [[databricks]] [ipo](https://www.bloomberg.com/news/articles/2020-10-24/microsoft-backed-databricks-is-said-to-plan-2021-stock-listing) has got me thinking about the space 
+    - Databricks main offering is providing and easy to use and reliable interface to run [[spark]] at large scale. Spark is an open sourced project, so they were an early entrance into the space of providing a platform that makes running open source software easier. One of the biggest advantages of databricks is that users no longer have to worry about installing and managing spark, which can be a nightmare, especially for those who are unfamiliar (speaking from experience). 
+        - Spark is still very widely accepted and useful software library 
+    - I do think they have some competition in the space, mainly [[ray]] and [[dask]] (or more apt, their parent companies [[anyscale]] and [[Coiled Computing]])
+        - Well, they aren't much competition yet (as they are really small), but they could get there. I think the huge advantage these new companies have is they are based on python libraries that are much easier to use than spark
+        - For both ray and dask, you can `pip install` their libraries and get started running them locally. They can also be used to parallelize [[pandas]], which is the number 1 tool for most data scientists
+            - This is really important, because data scientists don't want to have to learn spark, but to run big data processing jobs, technologies like spark were the only way
+            - dask and ray provide a "native" python way to run parallel computations. And of course, their parent businesses are going to let users pay to have a reliable and easy to use environment to run their software
+        - Ray and Dask could be in trouble if databricks decides it wants to start offering environments with those libraries included
+            - Looks running ray on databricks is already happening [here](https://databricks.com/session_na20/ray-enterprise-grade-distributed-python), but the guy who gave this talk is from Anyscale, so I guess he isn't scared running ray on databricks will hurt them
+        - both of these libraries also already provide easy install instructions for how to run clusters on many different platforms, from EKS, to Azure, to whatever else
+        - Besides parallelizing pandas, they both have api's for parallelizing any python task that run on a laptop and scale up to any cluster 
+        - Ray is working on a [streaming library](https://github.com/ray-project/ray/tree/master/streaming), while dask half supports streaming [with queues](https://distributed.dask.org/en/1.10.2/queues.html)
+            - Spark is an industry accepted tool for large scale data streaming
