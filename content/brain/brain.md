@@ -4,10 +4,6 @@ aliases: ["mybrain", "Public Brain", "The Jungle", "jungle"]
 ---
 
 Josh Waitzkin metaphor for learning. 
-Get out your machete and raze. 
+Get out your machete and hack. 
 
-[[bird-by-bird]]
-
-[[2020-10-10]]
-
-[[2020-11-11]]
+Check out my latest Weekly Review: [[2020-20-25]]

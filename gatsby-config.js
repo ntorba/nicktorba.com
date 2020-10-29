@@ -122,6 +122,7 @@ module.exports = {
     "gatsby-plugin-emotion",
     "gatsby-plugin-sharp",
     "gatsby-plugin-offline",
+    "gatsby-plugin-twitter",
     {
       "resolve": `gatsby-transformer-remark`,
       "options": {
