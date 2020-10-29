@@ -3,6 +3,7 @@ import { graphql, Link } from "gatsby";
 import styled from "@emotion/styled";
 import Layout from "../components/Layout";
 import { colors } from "../tokens";
+
 const AllPosts = styled.div``;
 
 const PostHeader = styled(Link)`
@@ -61,7 +62,7 @@ const DailyNotesPage = ({ data }) => {
       <PostHeader to={"brain/" + node.childMdx.frontmatter.slug}>
         <PostTitle>{node.childMdx.frontmatter.title}</PostTitle>
         <PostDate>{node.childMdx.frontmatter.displayDate}</PostDate>
-        <p><b>Topics</b>: {(node.childMdx.frontmatter.topics) ? node.childMdx.frontmatter.topics.join(", ") : "None Listed"}</p>
+        {/* <p><b>Topics</b>: {(node.childMdx.frontmatter.topics) ? node.childMdx.frontmatter.topics.join(", ") : "None Listed"}</p> */}
         <p>{node.childMdx.excerpt}</p>
       </PostHeader>
       {/* <BrainNote note={node.childMdx}></BrainNote> */}
