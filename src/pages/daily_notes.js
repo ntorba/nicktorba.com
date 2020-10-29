@@ -63,9 +63,9 @@ const DailyNotesPage = ({ data }) => {
       <PostDate>{node.childMdx.frontmatter.displayDate}</PostDate>
       {/* <p><b>Topics</b>: {(node.childMdx.frontmatter.topics) ? node.childMdx.frontmatter.topics.join(", ") : "None Listed"}</p> */}
       <p>{node.childMdx.excerpt}</p>
+      {/* <BrainNote note={node.childMdx}></BrainNote> */}
+      {/* <MDXRenderer title="My Stuff!">{node.childMdx.body}</MDXRenderer> */}
     </PostHeader>
-    {/* <BrainNote note={node.childMdx}></BrainNote> */}
-    {/* <MDXRenderer title="My Stuff!">{node.childMdx.body}</MDXRenderer> */}
   ));
   return (
     <Layout>
