@@ -6,7 +6,7 @@ import { colors } from "../tokens";
 
 const AllPosts = styled.div``;
 
-const Post = styled(Link)`
+const PostHeader = styled(Link)`
   display: block;
   margin-bottom: 45px;
 
@@ -22,7 +22,7 @@ const Post = styled(Link)`
 const PostTitle = styled.h3`
   color: ${colors.purple900};
 
-  ${Post}:hover & {
+  ${PostHeader}:hover & {
     color: ${colors.purple500};
   }
 `;
@@ -35,7 +35,7 @@ const PostDate = styled.div`
   font-size: 11pt;
   color: ${colors.gray500};
 
-  ${Post}:hover & {
+  ${PostHeader}:hover & {
     color: ${colors.gray400};
   }
 `;
@@ -48,12 +48,24 @@ const DailyNotesPage = ({ data }) => {
       Date.parse(a.childMdx.frontmatter.sortDate)
     );
   });
+  // const Posts = nodes.map((node) => (
+  //   <div>
+  //     <PostHeader to={"brain/" + node.childMdx.frontmatter.slug}>
+  //       <PostTitle>{node.childMdx.frontmatter.title}</PostTitle>
+  //       <PostDate>{node.childMdx.frontmatter.displayDate}</PostDate>
+  //     </PostHeader>
+  //     <MDXRenderer title="My Stuff!">{node.childMdx.body}</MDXRenderer>
+  //     </div>
+  // ));
   const Posts = nodes.map((node) => (
-    <Post to={"brain/" + node.childMdx.frontmatter.slug}>
+    <PostHeader to={"brain/" + node.childMdx.frontmatter.slug}>
       <PostTitle>{node.childMdx.frontmatter.title}</PostTitle>
       <PostDate>{node.childMdx.frontmatter.displayDate}</PostDate>
+      {/* <p><b>Topics</b>: {(node.childMdx.frontmatter.topics) ? node.childMdx.frontmatter.topics.join(", ") : "None Listed"}</p> */}
       <p>{node.childMdx.excerpt}</p>
-    </Post>
+      {/* <BrainNote note={node.childMdx}></BrainNote> */}
+      {/* <MDXRenderer title="My Stuff!">{node.childMdx.body}</MDXRenderer> */}
+    </PostHeader>
   ));
   return (
     <Layout>
@@ -74,12 +86,14 @@ export const query = graphql`
       nodes {
         name
         childMdx {
-          excerpt(pruneLength: 250)
+          body
+          excerpt(pruneLength: 280)
           frontmatter {
             sortDate: date
             displayDate: date(formatString: "MMMM D, Y")
             title
             slug
+            topics
           }
         }
       }

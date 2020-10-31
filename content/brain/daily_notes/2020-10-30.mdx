@@ -1,0 +1,45 @@
+---
+date: 2020-10-30
+title: "AWS and Platforms"
+slug: "2020-10-30"
+published: true
+topics: [aws, apis, platforms, negotiation]
+---
+Listened to [[Alex Danco]] on [[The North Star]] [here](https://open.spotify.com/episode/0Y6GG4fU8CBQz624HDfk20?si=qzCSA6YjTk6AHUjeFdE_JA). His thoughts on [[aws]] were very interesting
+
+"AWS is a government contractor. Their biggest business is selling technology to the US." ~13:39. 
+- Alex himself is very excited about this because of the potential acceleration of progress on goverment projects. However, he did acknowledge legitmate worries about privitation, but was positive on this idea regardless.
+- From a security standpoint, it makes more sense for the government to use [[aws]] than to run their own data center. [[aws]] has centralized the best talent in security, as opposed to forcing each customer to apply best practices on their own. Centralizing talent is why cloud providers have become so popular. Security is also a really hard problem that most people wish they could ignore. Putting the most talented people on one team to work on security for everyone seems like a good idea. 
+- [[aws]] Lambda, or "serverless" is the first step toward cloud providers removing enormous amount of friction for users. Lambda, and other services like it, allow users to scale code without worrying about infrastructure. This follows the same trend as [[codesandbox]]. Services that remove development friction and allow more focus on creative problems will continue to gain momentum and popularity. 
+# Platforms and Services
+Alex brings up Amazon's huge advantage, which is explained in [[Stevey's Google Platforms Rant]] 
+- Back in the day (~2002), [[Jeff Bezos]] sent out a memo with these bullet points ([source](https://gist.github.com/chitchcock/1281611))
+    1. All teams will henceforth expose their data and functionality through service interfaces.
+    2. Teams must communicate with each other through these interfaces.
+    3. There will be no other form of interprocess communication allowed: no direct linking, no direct reads of another team's data store, no shared-memory model, no back-doors whatsoever. The only communication allowed is via service interface calls over the network.
+    4. It doesn't matter what technology they use. HTTP, Corba, Pubsub, custom protocols -- doesn't matter. Bezos doesn't care.
+    5. All service interfaces, without exception, must be designed from the ground up to be externalizable. That is to say, the team must plan and design to be able to expose the interface to developers in the outside world. No exceptions.
+    6. Anyone who doesn't do this will be fired.
+    7. Thank you; have a nice day!
+
+This forced [[Amazon]] into becoming the largest Service oriented architecture ever made. All of a sudden, every team in Amazon had to treat every other team as if they were a customer (and possible adversary). 
+In other words, ever team at Amazon had to "eat their own dogfood." [[Kislay Verma]] expands on this idea on [his blog](https://kislayverma.com/platform-thinking/the-golden-rule-of-platforms/), calling this the **golden rule**. This rule means that everyone, including internal teams, even the team building the service itself, must use the service as if they are an external customer. There can be no backdoors or exceptions - everyone uses the same service. And that service must be externally programmable to allow users to build useful, valuable products.
+
+Stevey's rant isn't just about why Amazon is so smart for this. His point is to talk about why Google needs to learn from this. Here's an example where he explains the shortcomings of Google+: "Google+ is a knee-jerk reaction, a study in short-term thinking, predicated on the incorrect notion that Facebook is successful because they built a great product. But that's not why they are successful. Facebook is successful because they built an entire constellation of products by allowing other people to do the work. So Facebook is different for everyone. Some people spend all their time on Mafia Wars. Some spend all their time on Farmville. There are hundreds or maybe thousands of different high-quality time sinks available, so there's something there for everyone."
+
+- They became popular "because they let other people do all the work." This is what it means to have api's that are externally programmable. They provided the functionality for external users to build services on their platform that bring significant value. 
+    - This is not possible in a product focused approach
+
+[[Kislay Verma]] also wrote two other useful posts: [Products are not Platforms](https://kislayverma.com/platform-thinking/products-are-not-platforms/) and [APIs are not platforms](https://kislayverma.com/platform-thinking/apis-are-not-platforms/)
+- These help to give a better understanding of platforms vs products
+- [[aws]] is a concrete example of a platform. All of the api's for each service are externally programmable. It is an environment in and of itself, and each service has it's own api. Teams in amazon don't have some special version of aws. They eat their own dogfood. In the short term, this requires more work, because there are some short cuts they could take to allow internal customers to use their service sooner. However, this approach is a huge advantage in the long term as every service they create has an "on switch," so at any point they can make it external and it's completely ready. 
+
+- API's are not platforms because they can become products themselves. Companies can throw an api onto their product in the end to try to feign a platform, but that does not work. 
+- I am curious how strictly internal [[Spotify]] teams follow a service oriented architecture. They have a pretty popular and well defined public api, but there is a lot more data they could expose to make externally programmed apps much richer. If they are service oriented they would be able to "flip a switch" on any of those internal developments to add that richness to their external api capabilities.
+    - It seems to me that Spotify could provide a richer environment for users to create custom apps (more in depth than just website embeds and cool graphs about personal stats)
+
+### Quick note from [[Getting To Yes]]
+"**The most powerful interests are basic human needs**", pg.  50
+- This section is particularly relevant to negotiations regarding the oil and gas industry in the US. People who work in oil and gas feel attacked by climate change activists who want to put an immediate end to the whole industry. Not only is it their livlihood, but in many cases their identify. Negotiations are much harder when those on the other side feel their basic human needs are threatened.
+- We need to get on the same side of the table. This is much easier said than done, and I'm sure there are people working to try to come to some agreement here, but it was a clear application of this technique 
+-  Telling an oil and gas worker that you are going to shut down their industry would be like telling a software engineer you're going to take away their computer "for the good of humanity." Sure, you may be right, but what the hell am I supposed to do? "Well, you'll have to figure that out, but for now we are taking your laptop." In this imaginary scenario, I'd probably say something along the lines of "go fuck yourself" and vote for politicians who will protect my interests. 
