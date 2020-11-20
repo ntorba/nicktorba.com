@@ -5,6 +5,12 @@ aliases: ["enders game", "Enders Game"]
 
 Themes: [[leadership]] [[isolation]] [[strategy]] [[moral dilemma]]
 
+SPOILER WARNING (like the very next sentence, so you're warned)
+
+I read this book knowing the premise "it turns out that the game was real the whole time," but no more detail than that. I think it almost made it more enjoyable to read and try to recognize when the game became real. 
+
+[[another page]]
+
 So many great ideas from this book
 - Leadership and Isolation
 - The Buggers functioning as cells of a larger organism instead of an army of single organisms
