@@ -1,44 +1,7 @@
 import React from "react";
-import { graphql, Link } from "gatsby";
-import styled from "@emotion/styled";
+import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import { colors } from "../tokens";
-
-const AllPosts = styled.div``;
-
-const Post = styled(Link)`
-  display: block;
-  margin-bottom: 45px;
-
-  p {
-    color: ${colors.gray800};
-  }
-
-  :hover p {
-    color: ${colors.gray500};
-  }
-`;
-
-const PostTitle = styled.h3`
-  color: ${colors.purple900};
-
-  ${Post}:hover & {
-    color: ${colors.purple500};
-  }
-`;
-
-const PostDate = styled.div`
-  width: 100%;
-  max-width: 600px;
-  margin-top: -10px;
-  margin-bottom: 15px;
-  font-size: 11pt;
-  color: ${colors.gray500};
-
-  ${Post}:hover & {
-    color: ${colors.gray400};
-  }
-`;
+import {AllPosts, Post, PostTitle, PostDate} from "./post_pages_components";
 
 const ArticlesPage = ({ data }) => {
   let nodes = data.posts.nodes;
