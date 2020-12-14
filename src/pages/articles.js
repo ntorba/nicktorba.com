@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import {AllPosts, Post, PostTitle, PostDate} from "./post_pages_components";
+import { AllPosts, Post, PostTitle, PostDate } from "../components/post_pages_components";
 
 const ArticlesPage = ({ data }) => {
   let nodes = data.posts.nodes;
