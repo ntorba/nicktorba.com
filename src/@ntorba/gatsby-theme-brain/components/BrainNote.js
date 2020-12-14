@@ -58,7 +58,9 @@ const BrainNote = ({ note }, pageContext) => {
     if (references.length > 0) {
       referenceBlock = (
         <>
-          <h1>Linked References</h1>
+          <br />
+          <br />
+          <h2>Linked References</h2>
           <ul>
             {references}
           </ul>

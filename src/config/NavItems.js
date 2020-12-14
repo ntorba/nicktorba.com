@@ -4,8 +4,8 @@ const NavItems = [
     location: "/brain",
   },
   {
-    name: "Top Of Mind",
-    location: "/brain/top-of-mind"
+    name: "Trailheads",
+    location: "/brain/trailheads"
   },
   {
     name: "Essays",
