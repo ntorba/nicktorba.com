@@ -3,18 +3,52 @@ title: "Welcome to the Jungle"
 aliases: ["mybrain", "Public Brain", "The Jungle", "jungle"]
 ---
 
-As Josh Waitzkin describes in [[The Art of Learning]], learning is like hacking your way through a jungle. All directions look the same, you're tired, but there is only one thing to do - keep moving. As a result, you build trails through previously untouched patches, you find important landmarks, and you eventually understand the previously mysterious world that surrounds you. 
+I've broken some of the best notes into different categories. They are my trailheads.  
 
-I like to visualize my knowledge with this metaphor. Through my work, I've built an extensive mental trail system of [[python]] programming, [[machine learning]] and [[kubernetes]]. For fun, I've recently begun building a mental trail system about [[MTB]] and all that it entails. Soon, I hope to begin building trail systems to better understand topics like [[genomics]], [[quantum computing]], and [[wearable technology]]. 
+Continuing [[The Jungle]] metaphor, I call my favorite notes the "trailheads". These are the best entrances to the jungle. They link to notes to my recent writings, notes on books and articles, and more. You'll see that some of the notes don't even have writing on the page themselves, but instead have linked references to explore. That is part of the fun of this medium! 
+Pick any one of them - you never know where it may lead. 
 
-For now, much of the writing on this site will not be directly related to my established trail systems. Instead, I'm going to explore new and experimental ideas. You will often see my understanding of new ideas grow from my initial knowledge of specific fields, for better or worse. 
+Some of these trails will be much more well built than others. Often, I'll put a note on this page as encouragement for myself to clean it up in the anticipation that others may see it soon. If you end up on a trail that looks like a mess, don't be afraid to help me build it (by reaching out on [twitter](http://twitter.com/nicktorba) and [email](mailto:nicholastorba@gmail.com)). 
 
-## How it works 
-This site is built using a gatsby plugin built by [Aengus Mcmillin](https://aengusmcmillin.com/) that was inspired by the networked note-taking designed used by tools like [[RoamResarch]] and [[Obsidian]]. 
+## Recently Weekly Reviews
+* [[2020-12-20]]
 
-At the bottom of each page, you'll see a section titled **"Linked References"**. This a list of all other notes that reference your current note. **Pages link to other pages based on text enclosed in double brackets** (which you've seen a few of by now). Click on them to go to that note. 
+## Favorite Notes 
+* [[American Individualism]]
+* [[substitutes and complements]]
+* [[Stevey's Google Platforms Rant]]
+* [[Interface First Design]]
+* power of a strong [[social network]]
+* [[Eat your own Dogfood]]
 
-My hope for this site is to leave readers with a bunch of open tabs and new connections.
+## Books 
+* [[Ender's Game]]
+* [[The Art of Learning]]
+* [[Getting to Yes]]
 
-## Where to Start? 
-Check out the [[trailheads]]. I list some of my favorite notes, articles, people, podcasts and more. Click on anything that interests you! 
+## Articles 
+* [[Don't Call Yourself A Programmer, And Other Career Advice]]
+* [[Andy Matuschak]] [notes page](https://notes.andymatuschak.org/About_these_notes)
+* Anything on [[Ribbon Farm]]
+
+## Open Source Projects (Mostly Python)
+* [[seldon-core]]
+* [[kubernetes]]
+* [[ray]]
+* [[dask]]
+
+## People 
+* [[Tim Ferris]]
+* [[Seth Godin]]
+* [[David Perrell]]
+* [[Salman Ansari]]
+* [[Joel Spolsky]]
+
+## Podcasts
+* [[The North Star]]
+* [[Against The Rules]]
+* [[The Tim Ferris Show]]
+* [[Singletracks Mountain Bike News]]
+
+## Companies 
+* [[codesandbox]]
