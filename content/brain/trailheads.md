@@ -24,6 +24,7 @@ Some of these trails will be much more well built than others. Often, I'll put a
 ## Articles 
 * [[Don't Call Yourself A Programmer, And Other Career Advice]]
 * [[Andy Matuschak]] [notes page](https://notes.andymatuschak.org/About_these_notes)
+* Anything on [[Ribbon Farm]]
 
 ## Open Source Projects (Mostly Python)
 * [[seldon-core]]
@@ -36,7 +37,7 @@ Some of these trails will be much more well built than others. Often, I'll put a
 * [[Seth Godin]]
 * [[David Perrell]]
 * [[Salman Ansari]]
-* [[Ben Hardy]]
+* [[Joel Spolsky]]
 
 ## Podcasts
 * [[The North Star]]
