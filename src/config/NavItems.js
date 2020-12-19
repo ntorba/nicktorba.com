@@ -4,10 +4,6 @@ const NavItems = [
     location: "/brain",
   },
   {
-    name: "Trailheads",
-    location: "/brain/trailheads"
-  },
-  {
     name: "Essays",
     location: "/articles",
   },
