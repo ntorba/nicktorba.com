@@ -18,7 +18,7 @@ My ideas around why voice memos are a better form of communication for remote, c
 - Voice is multi-dimensional. One of the things I don't like about text is that my sense of humor doesn't come across well at all (some may argue this could be the case in general). With voice, you have much more room to express yourself (it's so hard to be sarcastic via text) 
 - I've played around with the idea of starting a podcast for a long time, but I really don't like the sound of my own voice on camera, nor do I have any experience recording myself speak. By consistently sending recordings to friends, I'll become much more used to this, and improve my speaking ability 
 
-I also hope they help solve some of the problems I write in my notes on [[Why We Don't Talk More]].
+I also hope they help solve some of the problems I write in my notes on [[2020-12-14]].
 
 ## The Experiment
 Starting [[December 14th, 2020]], I am sending a voice memo to a new person everyday for a month (until [[January 14th, 2021]]). 
