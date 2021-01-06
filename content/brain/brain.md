@@ -24,6 +24,7 @@ Some of these trails will be much more well built than others. Often, I'll put a
 * [[Eat your own Dogfood]]
 
 ## Books 
+* [[The Power Paradox]]
 * [[Ender's Game]]
 * [[The Art of Learning]]
 * [[Getting to Yes]]
