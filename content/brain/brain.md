@@ -11,7 +11,7 @@ Pick any one of them - you never know where it may lead.
 Some of these trails will be much more well built than others. Often, I'll put a note on this page as encouragement for myself to clean it up in the anticipation that others may see it soon. If you end up on a trail that looks like a mess, don't be afraid to help me build it (by reaching out on [twitter](http://twitter.com/nicktorba) and [email](mailto:nicholastorba@gmail.com)). 
 
 ## Recently Weekly Reviews
-* [[2021-01-04]]
+* [[2021-01-03]]
 * [[2020-12-27]]
 * [[2020-12-20]]
 
