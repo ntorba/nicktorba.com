@@ -4,9 +4,13 @@ const NavItems = [
     location: "/brain",
   },
   {
-    name: "Essays",
-    location: "/articles",
+    name: "How it Works",
+    location: "/brain/how-it-works"
   },
+  {
+    name: "Why",
+    location: "/brain/why",
+  }
 ];
 
 export default NavItems;
