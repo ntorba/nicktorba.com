@@ -6,6 +6,8 @@ The Jungle is my [digital garden](https://salman.io/notes/digital-gardens/). The
 
 Each page is a note on a topic. At the bottom of each page, you'll see a section titled **My Linked Notes**. This a list of all other notes that reference your current note. Pages link to other pages based on text enclosed in double brackets (like this: [[The Jungle]]). Click on them to go to that note.
 
+Often, you may find yourself on a page that has no text on the note itself, but is only in other notes. That is a feature, not a bug. It allows me to build context about that note from the reference point of other ideas before creating the note itself.
+
 My hope is to leave readers with open tabs and an an open mind. 
 
 ### Technically 
