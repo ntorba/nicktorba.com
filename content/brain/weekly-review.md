@@ -1,5 +1,5 @@
 ---
-title: "Trailheads"
+title: "Weekly Reviews"
 aliases: ["Weekly Review", "Weekly review", "weekly review", "Weekly Reviews", "weekly reviews"]
 ---
 
