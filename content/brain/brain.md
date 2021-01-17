@@ -3,20 +3,26 @@ title: "Welcome to the Jungle"
 aliases: ["mybrain", "Public Brain", "The Jungle", "jungle"]
 ---
 
-Extending [[The Jungle]] metaphor, I call my favorite notes the "trailheads". These are the best entrances to the jungle. They link to notes to my recent writings, notes on books and articles, and more. You'll see that some of the notes don't even have writing on the page themselves, but instead have linked references to explore. That is part of the fun of this medium! 
-Pick any one of them - you never know where it may lead. 
+If you've come this far, you've found my jungle. It is a growing body of public notes on anything I find interesting enough to write about. 
 
-Some of these trails will be much more well built than others. Often, I'll put a note on this page as encouragement for myself to clean it up in the anticipation that others may see it soon. If you end up on a trail that looks like a mess, don't be afraid to help me build it (by reaching out on [twitter](http://twitter.com/nicktorba) and [email](mailto:nicholastorba@gmail.com)). 
-
-## Recently Weekly Reviews
+The creation of these notes is driven by my [[Weekly Reviews]]. Weekly reviews are where I gather my thoughts on the books, articles, and podcasts I consumed in the past week. Use the links below to see my recent reviews: 
+* [[2021-01-17]]
 * [[2021-01-10]]
 * [[2021-01-03]]
-* [[2020-12-27]]
-* [[2020-12-20]]
+
+
+## Trailheads 
+Extending [[The Jungle]] metaphor, my "trailhead" notes are listed below. These are the best places to enter the jungle.
+
+As you explore, do not be afraid to click away to other ideas linked in each note. The point is to go deep and find connections. 
+
+Some notes are much more well built than others. Often, I'll publish a note as encouragement for myself to clean it up in the anticipation that others may see it soon. If you end up somewhere that looks like a mess, don't be afraid to help me build it (by reaching out on [twitter](http://twitter.com/nicktorba) and [email](mailto:nicholastorba@gmail.com)). 
 
 ## Favorite Notes 
-* [[American Individualism]]
+* [[Skills Beat Fitness]]
+* [[Things You Should Never Do, Part 1]]
 * [[substitutes and complements]]
+* [[American Individualism]]
 * [[Stevey's Google Platforms Rant]]
 * [[Interface First Design]]
 * power of a strong [[social network]]
@@ -33,24 +39,6 @@ Some of these trails will be much more well built than others. Often, I'll put a
 * [[Andy Matuschak]] [notes page](https://notes.andymatuschak.org/About_these_notes)
 * Anything on [[Ribbon Farm]]
 
-## Open Source Projects (Mostly Python)
-* [[seldon-core]]
-* [[kubernetes]]
-* [[ray]]
-* [[dask]]
-
 ## People 
-* [[Tim Ferris]]
-* [[Seth Godin]]
-* [[David Perrell]]
-* [[Salman Ansari]]
+* [[balajis.com]]
 * [[Joel Spolsky]]
-
-## Podcasts
-* [[The North Star]]
-* [[Against The Rules]]
-* [[The Tim Ferris Show]]
-* [[Singletracks Mountain Bike News]]
-
-## Companies 
-* [[codesandbox]]
