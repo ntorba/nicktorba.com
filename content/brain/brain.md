@@ -37,8 +37,8 @@ Some notes are much more well built than others. Often, I'll publish a note as e
 ## Articles 
 * [[Don't Call Yourself A Programmer, And Other Career Advice]]
 * [[Andy Matuschak]] [notes page](https://notes.andymatuschak.org/About_these_notes)
-* Anything on [[Ribbon Farm]]
 
 ## People 
 * [[balajis.com]]
+* [[Venkatesh Rao]]
 * [[Joel Spolsky]]
