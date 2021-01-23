@@ -3,6 +3,8 @@ title: "Why The World Has Gone Crazy"
 aliases: ["Why The World Has Gone Crazy"]
 date: "2021-01-23"
 ---
+[Link](https://thetinkerpoint.com/2019/02/11/why-the-world-has-gone-crazy/) to original article. 
+
 Alex begins this article with a hunch: the "mingling-copying mechanism" that humans and many other animals use to operate in groups won't work on networks. 
 
 He wrote code (which I hope he shares soon) that shows his hunch was right. Despite my initial surprise at first reading this, I certainly see how this could be the case. 
