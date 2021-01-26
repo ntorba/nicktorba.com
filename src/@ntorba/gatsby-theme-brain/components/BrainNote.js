@@ -60,7 +60,7 @@ const BrainNote = ({ note }, pageContext) => {
         <>
           <br />
           <br />
-          <h2>Linked References</h2>
+          <h2>My Linked Notes</h2>
           <ul>
             {references}
           </ul>
