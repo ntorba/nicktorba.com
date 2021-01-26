@@ -6,6 +6,7 @@ aliases: ["mybrain", "Public Brain", "The Jungle", "jungle"]
 If you've come this far, you've found my jungle. It is a growing body of public notes on anything I find interesting enough to write about. 
 
 The creation of these notes is driven by my [[Weekly Reviews]]. Weekly reviews are where I gather my thoughts on the books, articles, and podcasts I consumed in the past week. Use the links below to see my recent reviews: 
+* [[2021-01-24]]
 * [[2021-01-17]]
 * [[2021-01-10]]
 * [[2021-01-03]]
