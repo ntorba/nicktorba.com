@@ -6,6 +6,7 @@ aliases: ["Weekly Review", "Weekly review", "weekly review", "Weekly Reviews", "
 Weekly reviews are where I aggregate the best of my week. My goal is to make my information consumption more active, while sharing interesting ideas, articles, podcasts, and videos with others.
 
 ## Past Reviews 
+* [[2021-01-31]]
 * [[2021-01-24]]
 * [[2021-01-17]]
 * [[2021-01-10]]
