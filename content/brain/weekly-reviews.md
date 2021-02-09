@@ -5,7 +5,10 @@ aliases: ["Weekly Review", "Weekly review", "weekly review", "Weekly Reviews", "
 
 Weekly reviews are where I aggregate the best of my week. My goal is to make my information consumption more active, while sharing interesting ideas, articles, podcasts, and videos with others.
 
+To get them in email form, subscribe [here!](https://buttondown.email/nicktorba)
+
 ## Past Reviews 
+* [[2021-02-07]]
 * [[2021-01-31]]
 * [[2021-01-24]]
 * [[2021-01-17]]
