@@ -23,11 +23,11 @@ Some notes are much more well built than others. Often, I'll publish a note as e
 
 ## Favorite Notes 
 * [[Skills Beat Fitness]]
+* [[Interface First Design]]
 * [[Things You Should Never Do, Part 1]]
 * [[substitutes and complements]]
 * [[American Individualism]]
 * [[Stevey's Google Platforms Rant]]
-* [[Interface First Design]]
 * power of a strong [[social network]]
 * [[Eat your own Dogfood]]
 
