@@ -2,3 +2,37 @@
 title: "Interface First Design"
 aliases: ["Interface First Design", "interface first design"]
 ---
+I first wrote about Interface First Design on [[October 20th, 2020]]. That was before I read [these notes](https://lethain.com/notes-philosophy-software-design/) on [[A Philosophy of Software Design]]
+
+**Interface First Design**: Design the interface of a program before you do any other work. 
+
+[[A Philosophy of Software Design]] has great vocabulary for the two phases of programming
+- [[Tactial Programming]]: Get something to work 
+- [[Strategic Programming]]: Design good interfaces 
+
+Interface First Design is when you do [[Strategic Programming]] before [[Tactical Programming]]. 
+
+Developers, especially new developers, are quick to jump to the tactical phase. It __feels__ like the faster path to the end. In school, it often works because the api doesn't really matter, because you only use it a few times before you ditch it for the next assignment. However, for software you will continually improve upon and come back to, the strategic phase is just as important, if not more so. 
+[[John Ousterhout]] supports this claim, writing "payoff for good design comes quickly. It's unlikely that the tactical approach
+is faster even for the first version, let alone the second." 
+
+### Strategic Phase
+The output from the strategic phase is a mocked api that you fill in with implementation during the tactical phase. I give a concrete example on [[2020-10-20]].
+
+The strategic phase is for people. This code **is for you, not the computer** - cut the computer out of the question. The output of strategic programming is for you to understand your interfaces and where it's best to hide complexity. It is a mistake to think hard about running code in this phase. At first, this may feel wasteful, but as you spend more time in this phase, you begin to appreciate the extra focus you put into design.
+
+My current stance is that you should **spend time on the strategic phase for every single project**, no matter how big or small.  In the worst case scenario, which is the implementation is not possible, you are still left with the mocked api as a note for you and future developers to return to and quickly grasp the original goal. 
+
+### Tactical Programming
+This is the bread and butter of programming. The tactical phase is when you lock in and bend the computer to your will, which is what makes it so tempting to jump right in. 
+It's important to remember that the end of the tactical phase is much more satisfying when you already have an goal in mind - the mocked api you created in the strategic phase. Without the end goal, you often end up with a fragile Frankenstein api you can barely use. I've fallen victim to this many times... pretty much any code assignment I did in college. 
+
+Also, when stuck on a tactical problem, it's often helpful to switch back to strategic mode to ensure the problem you face is necessary for your goal. 
+
+### Good Interfaces
+Lastly, what is a good interface? It is one that manages complexity by hiding it in implementation. From [[A Philosophy of Software Design]]:
+- "The most important way to manage complexity is by shifting it from interfaces and into implementation"
+
+### Extensions 
+This idea extends to other realms as well. Before jumping into the tactical details of any problem, you should establish a clear goal. Without that goal, you end up with a smorgasbord of information that's difficult to put together.  Or, you are forced into the strategic phase after the fact, when you realize you wasted a lot of time focusing on the wrong information. 
+For any project, make sure to start strategic before moving to tactical, and continuously alternate between the two until you've reached your goal.  
