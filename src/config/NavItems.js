@@ -1,14 +1,14 @@
 const NavItems = [
   {
-    name: "The Jungle",
+    name: "Jungle",
     location: "/brain",
   },
   {
-    name: "Weekly Reviews",
+    name: "Weekly Review",
     location: "/brain/weekly-reviews",
   },
   {
-    name: "How it Works",
+    name: "About",
     location: "/brain/how-it-works"
   },
 ];
