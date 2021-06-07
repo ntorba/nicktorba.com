@@ -7,6 +7,7 @@ Weekly reviews are where I aggregate the best of my week. My goal is to make my 
 
 
 ## Past Reviews 
+* [[2021-06-06]]
 * [[2021-05-30]]
 * [[2021-02-14]]
 * [[2021-02-07]]
