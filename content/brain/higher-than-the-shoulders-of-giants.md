@@ -31,9 +31,7 @@ Sure, it's constructed like a conspiracy theory, noting coincidences and such, b
 - The chemist [Angelo Mariani](https://en.wikipedia.org/wiki/Angelo_Mariani_%28chemist%29), “invented” **cocawine** in 1863, and branded it as [[Vin Mariani]], from cocaine.org: 
     - > “If cocaine is consumed on its own, it yields two principal metabolites, ecgonine methyl ester and benzoyleconine. Neither compound has any discernible psychoactive effect. Cocaine co-administered with alcohol, however, yields a potent psychoactive metabolite, cocaethylene. Cocaethylene is very rewarding agent in its own right. Cocaethylene is formed in the liver by the replacement of the methyl ester of cocaine by the ethyl ester. It blocks the dopamine transporter and induces euphoria. Hence coca wine drinkers are effectively consuming three reinforcing drugs rather than one.”
 - Mariani had a bevy of celebrity endorsements, including proof that [[Thomas Edison]] was a [[Vin Mariani]] drinker...
-
-Did you ever hear as kid that the original coca-cola had cocaine in it? Well, it turns out [that was true](https://en.wikipedia.org/wiki/Coca_wine). A pharmacist in Georga named John Pemberton nade a [[Vin Mariani]] competitor, but alcohol was outlawed in Georgia in 1886, so he invented Coca-Cola instead - coca wine without the alcohol. He had to remove the cocaine in 1914 when it was outlawed as well. 
-
+- Did you ever hear as kid that the original coca-cola had cocaine in it? Well, it turns out [that was true](https://en.wikipedia.org/wiki/Coca_wine). A pharmacist in Georga named John Pemberton nade a [[Vin Mariani]] competitor, but alcohol was outlawed in Georgia in 1886, so he invented Coca-Cola instead - coca wine without the alcohol. He had to remove the cocaine in 1914 when it was outlawed as well. 
 - [[Karl Koller]], a colleague of [[Sigmund Freud]] was the first surgeon to use [[cocaine]] as a local anaesthetic, which was a breakthrough discovery of the time
     - [[Karl Koller]] gave the first successful eye surgery in 1884, at age 25
     - this is why many other anaestheics end with "caine" 
