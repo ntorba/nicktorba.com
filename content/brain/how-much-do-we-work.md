@@ -6,7 +6,7 @@ aliases: ["How much do we Work?", "how much do we work?", "how much do we work"]
 
 I recently followed [Noah Pinion](https://twitter.com/Noahpinion) and twitter and started to read some of his work. 
 
-In [Bidenomics, Explained](https://noahpinion.substack.com/p/bidenomics-explained), he pins part of his argument for a paradigm shift on a claim I disagree with. In this note, I lay out why I diagree and what that means for his argument. 
+In [Bidenomics, Explained](https://noahpinion.substack.com/p/bidenomics-explained), he pins part of his argument for a paradigm shift on a point I disagree with. In this note, I lay out why I diagree and what that means for his argument. 
 
 ## Table of Contents
 ```toc
@@ -17,22 +17,22 @@ Here's the claim: "if income tax cuts made people work more, it certainly isn’
 ![https://fred.stlouisfed.org/series/B4701C0A222NBEA](../../images/decreasing-hours-worked-ratio.png)
 *Data from [FRED](https://fred.stlouisfed.org/series/B4701C0A222NBEA)* 
 
-Let's get into why I disagree with his claim. 
+Let's get into why I disagree. 
 
 ## Units and Part-Time Workers 
 The unit of the graph shown is Millions of hours/Thousands of Persons. There are two ways for this ratio to go down: 
 1. Increase hours worked 
 2. Increase the number of people working 
 
-I think number 2 is largely responsible for the decreasing trend we see in this graph. 
+I think number 2 is largely responsible for the decreasing trend seen in this graph. 
 
-In this same time period, many more people joined the work force. Specifically, many women working **part time** jobs joined the work force. That is exactly how you decrease the ratio Millions of hours/Thousands of Persons without decreasing number of hours worked. 
+In the same time period, many more people joined the work force. Specifically, many women working **part time** jobs joined the work force. That is exactly how you decrease the ratio Millions of hours/Thousands of Persons without decreasing number of hours worked. 
 
-That trend can be seen here: 
+That trend is seen here: 
 
 ![](../../images/average-weekly-hours-worked-per-person-by-age-group-united-states.png)*Data from [Our World In Data](https://ourworldindata.org/grapher/average-weekly-hours-worked-per-person-by-age-group-united-states)*
 
-It is important to point out the __slight__ decrease in total hours worked in this graph (say ~29 to ~25). I'd attribute that mostly to the fact that this data includes people from 14-18, whom, on average, have worked less since the early 1900's. 
+It is important to point out the __slight__ decrease in total hours worked in this graph (say ~29 to ~25). I'd mostly attribute that to the 14-18 year olds included in this data, whom, on average, have worked less since the early 1900's. 
 
 ## Oshan's Argument
 
