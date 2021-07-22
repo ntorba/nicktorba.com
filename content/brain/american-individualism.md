@@ -22,6 +22,9 @@ This led me to [[high context cultures]] vs [[low context cultures]] [Wikipedia 
     - **interesting idea: ** high context cultures are more focused on culture/community, as opposed to the individual, so there is a higher level of understanding of background from person to person. In that environment, they are able to gain much more info through less direct, more subtle means, because they share much more background and context 
         - This is why collectivism/socialism was popular in France/Italy, mostly Catholic countries. The people in those countries shared so much background and context they were much more willing to emphasize the group instead of the individual.
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I find Taiwan to be easier to navigate in that regard. There may be a hidden code or norm but it usually makes sense. To explain US stuff it takes tons of storytelling and background. But in the US it’s easier to exist ignoring that.</p>&mdash; Paul Millerd ✍📖 (@p_millerd) <a href="https://twitter.com/p_millerd/status/1418180149766352903?ref_src=twsrc%5Etfw">July 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 [[American Individualism]] has led to obsessions with people like [[Jack Dorsey]] [[Elon Musk]]
 - Superhuman illusion 
 
