@@ -6,4 +6,9 @@ I recently tried to lay down some older brother logic to my younger brother. I t
 
 [[Tim Urban]] has a [great article](https://waitbutwhy.com/2018/04/picking-career.html) about this.
 
+
+This is what I did: 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Subconsciously choose the field for money, consciously tell yourself it’s because the field is cool and you’re passionate about it</p>&mdash; Nick Torba (@nicktorba) <a href="https://twitter.com/nicktorba/status/1398665729470259206?ref_src=twsrc%5Etfw">May 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+... just some good ol' rationalization.  
+
 What this leads to is people picking careers they don't like. They liked the idea, but they don't actually like the life you need to lead in order to do that career. We need more awareness in our career choice process. 
